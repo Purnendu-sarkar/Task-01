@@ -30,6 +30,21 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
 console.log(concatenateArrays(["a", "b"], ["c"]));
 console.log(concatenateArrays([1, 2], [3, 4], [5]));
 
+// Problem 4
+
+//Skip
+
+
+// Problem 5
+function processValue(value: string | number): number {
+  return typeof value === "string" ? value.length : value * 2;
+}
+
+console.log(processValue("Hello"));
+console.log(processValue(10));
+
+
+
 
 
 
