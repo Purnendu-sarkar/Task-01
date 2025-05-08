@@ -41,3 +41,19 @@ console.log(userRole); // Output: "ADMIN"
 
 
 ```
+
+
+## 🔹 2. What is type inference in TypeScript? Why is it helpful?
+
+### What is type inference in TypeScript?
+Type inference is a feature of TypeScript where the compiler automatically determines the type of a variable or expression without you explicitly specifying it.
+
+
+### Why is Type Inference Helpful?
+Less code: You write fewer type annotations
+
+Smarter tooling: IDEs can suggest completions based on inferred types
+
+Error prevention: Catch mistakes early without manually defining types
+
+Faster development: Makes code easier to write and maintain
